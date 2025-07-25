@@ -24,13 +24,11 @@ This project is a FastAPI-based backend for **real-time audio translation**, enh
 
 ## 📂 Project Structure
 
-#!/bin/bash
-
-#File: tree-md
-
-tree=$(tree -tf --noreport -I '*~' --charset ascii $1 |
-       sed -e 's/| \+/  /g' -e 's/[|`]-\+/ */g' -e 's:\(* \)\(\(.*/\)\([^/]\+\)\):\1[\4](\2):g')
-
-printf "# Project tree\n\n${tree}"
+LiveTranslator/
+├── static/
+│ └── index.html
+├── .env
+├── .gitignore
+└── app.py
 
 
