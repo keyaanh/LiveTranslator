@@ -25,10 +25,10 @@ This project is a FastAPI-based backend for **real-time audio translation**, enh
 ## 📂 Project Structure
 
 LiveTranslator/
-├── static/
-│ └── index.html
-├── .env
-├── .gitignore
-└── app.py
+- ├── static/
+- │ └── index.html
+- ├── .env
+- ├── .gitignore
+- └── app.py
 
 
